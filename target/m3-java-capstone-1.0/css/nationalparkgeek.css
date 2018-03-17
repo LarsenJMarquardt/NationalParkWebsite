@@ -1,0 +1,115 @@
+body {
+    border-style:solid;
+    border-width:thin;
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+header {
+    margin: 25px;
+}
+
+header img {
+    height: 110px;
+}
+
+nav {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+li {
+    padding-bottom: 4px;
+}
+
+li a {
+    color: #0D118B;
+    font-weight: bold;
+    font-size: 14pt;
+    list-style: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+nav ul {
+    width: 100%;
+    height:fit-content;
+}
+
+nav ul li {
+    list-style: none;
+    float:left;
+    width: 100px;
+    vertical-align: middle;
+}
+
+nav:after {
+    clear: both;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    float:left;
+    margin:15px;
+}
+
+section h1 {
+    color: #000000;
+    font-size: 14pt;
+}
+
+section p {
+    color: #000000;
+    font-size: 12pt;
+    width: 80%;
+    margin: 25px;
+    text-align: left;
+}
+
+section img {
+    width: 250px;
+    height: 250px;
+    border-color: #FFFFFF;
+    border-width: 8px;
+    border-style: solid;
+    float: left;
+}
+
+#main-content {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 85%;
+    margin: 60px 78px;
+    min-height: 400px;
+    padding-top: 10px;
+}
+
+#main-content h2 {
+    padding: 14px;
+    color: #000000;
+}
+
+#main-content p {
+    color: black;
+}
+
+.copyright {
+    text-align: center;
+}
+
+section #park-weather{
+    display: flex;
+}
+
+section #park-weather img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
